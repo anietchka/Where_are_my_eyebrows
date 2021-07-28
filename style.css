@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Roboto:wght@400;700&family=Spectral&family=Varela&display=swap');
+
+body{
+  color: #9B72AA;
+  font-family: 'Karla', sans-serif;
+  background-color: white;
+  font-size: 18px;
+}
+
+h1, h2{
+  font-family: 'Spectral', serif;
+}
+
+h1{
+  color: #3C5186;
+  font-size: 33px;
+}
+
+h2{
+  font-size: 25spx;
+}
+
+.btn-cagnotte{
+  background-color: #3C5186;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+a{
+  text-decoration:none;
+}
+
+.btn-cagnotte:hover{
+  background-color: black;
+  color: white;
+}
+
+.container{
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+}
+
+.card{
+  border-radius: 4%;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#photo-de-profil{
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fab {
+  font-size: 37px;
+  color: #9B72AA;
+}
+
+.card-bottom{
+  border-radius: 4%;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  padding-bottom: 5px;
+}
+
+.fa-facebook-square{
+  color: #036EE4;
+}
+
+.fa-linkedin{
+  color: #0A66C2
+}
+
+.fa-instagram{
+  color: #96624C
+}
+
+.list-inline > li > a > img{
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
+#sourcil-henne:hover
